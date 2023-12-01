@@ -12,7 +12,7 @@ function coloresArray(){
     // son todos los colores menores a marron ?
     document.write("<h1>Son todos los colores menores a marron ?</h1>");
 
-    if (array.every(menorMarron())){
+    if (array.every(menorMarron)){
         document.write("<p>todos los colores son menores que marron<p>");
     }else{
         document.write("<p>no son todos los colores menores a marron<p>")
@@ -35,7 +35,7 @@ function coloresArray(){
     array.push("turquesa");
     document.write("<h1>Añadimos el turquesa a la array: </h1>");
 
-    document.write(`<p>${array[i]}</p>`);
+    document.write(`<p>${array}</p>`);
 
     // Elimina el verde
     let palabraEliminar = "verde";
